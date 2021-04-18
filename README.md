@@ -1,4 +1,4 @@
 ## AmadeusApiBI
 
-Basic integration of (https://developers.amadeus.com/ "Amadeus Api") with Laravel & Vue
+Basic integration of [Amadeus Api](https://developers.amadeus.com/) with Laravel & Vue
 
