@@ -29,7 +29,7 @@ class HomeController extends Controller
     public function amadeusApiCall($origin, $dest, $departure) {
 
         require('AmadeusClient.php');
-        $amadeus_api = new \AmadeusDahabtours\SelfServiceApiClient('GcFYR1Jv2b3Qi4Lg6qUzkqaZK9LhDg7y','xQbJqs342R0uOzBS');
+        $amadeus_api = new \AmadeusDahabtours\SelfServiceApiClient(env('AMADEUS_KEY1'),env('AMADEUS_KEY2'));
 
         //Flights inspiration
         $flight_inspiration = $amadeus_api->flightInspiration([
